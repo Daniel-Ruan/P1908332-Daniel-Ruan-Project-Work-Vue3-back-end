@@ -34,8 +34,8 @@ git clone https://github.com/Daniel-Ruan/P1908332-Daniel-Ruan-Project-Work-Vue3-
 5. Go to the project directory by `cd ` 
 6. Create `.env` file & Copy `.env.example` file to `.env` file
 7. Install XAMPP https://www.apachefriends.org/
-8. ![1](D:\laravel\1.png)
-9. ![2](D:\laravel\2.png)
+8. ![1](https://raw.githubusercontent.com/Daniel-Ruan/P1908332-Daniel-Ruan-Project-Work-Vue3-back-end/main/resources/1.png)
+9. ![2](https://raw.githubusercontent.com/Daniel-Ruan/P1908332-Daniel-Ruan-Project-Work-Vue3-back-end/main/resources/2.png)
 10. Create a database called - `laravel_basic_crud`.
 11. Install composer packages - `composer install`.
 12. Now migrate and seed database to complete whole project setup by running this-
@@ -57,4 +57,4 @@ php artisan serve
 
 ### Demo
 
-![demoAPI](D:\laravel\demoAPI.png).
+![demoAPI](https://raw.githubusercontent.com/Daniel-Ruan/P1908332-Daniel-Ruan-Project-Work-Vue3-back-end/main/resources/demoAPI.png).
