@@ -24,42 +24,37 @@ A Product CRUD Application API. It's included with JWT authentication and Swagge
 1. Delete Product
 
 ### How to Run:
-1. Clone Project - 
-
 ```bash
-git clone 
+git clone https://github.com/Daniel-Ruan/P1908332-Daniel-Ruan-Project-Work-Vue3-back-end.git
 ```
-1. Go to the project drectory by `cd Laravel-Basic-CRUD-API` & Run the
-2. Create `.env` file & Copy `.env.example` file to `.env` file
-3. Create a database called - `laravel_basic_crud`.
-4. Install composer packages - `composer install`.
-5. Now migrate and seed database to complete whole project setup by running this-
+1. Install php8 https://windows.php.net/download, 中文参考如下 https://10.1pxeye.com/install-php-8-on-windows-with-apache/
+2. Install Composer 环境变量设置与php相同
+3. Install laravel9 framework https://laravel.com/docs/9.x
+4. Download code ZIP, and unzip. 
+5. Go to the project directory by `cd ` 
+6. Create `.env` file & Copy `.env.example` file to `.env` file
+7. Install XAMPP https://www.apachefriends.org/
+8. ![1](D:\laravel\1.png)
+9. ![2](D:\laravel\2.png)
+10. Create a database called - `laravel_basic_crud`.
+11. Install composer packages - `composer install`.
+12. Now migrate and seed database to complete whole project setup by running this-
 ``` bash
 php artisan migrate:refresh --seed
 ```
-6. Generate Swagger API
+13. Generate Swagger API
+
 ``` bash
 php artisan l5-swagger:generate
 ```
-7. Run the server -
+14. Run the server -
+
 ``` bash
 php artisan serve
 ```
-8. Open Browser -
-http://127.0.0.1:8000 & go to API Documentation -
-http://127.0.0.1:8000/api/documentation
-9. You'll see a Swagger Panel.
-
-
-### Procedure
-1. First Login with the given credential or any other user credential
-1. Set bearer token to Swagger Header or Post Header as Authentication
-1. Hit Any API, You can also hit any API, before authorization header data set to see the effects.
-
+15. Open Browser -
+    http://127.0.0.1:8000 & go to API Documentation -
 
 ### Demo
 
-### Test
-1. Test with Postman - https://www.getpostman.com/collections/5642915d135f376b84af [Click to open with post man]
-1. Test with Swagger.
-1. Swagger Limitation: Image can not be uploaded throw Swagger, it can be uploaded throw Postman.
+![demoAPI](D:\laravel\demoAPI.png).
